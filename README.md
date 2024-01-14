@@ -91,3 +91,13 @@ Authorization: Bearer YOUR_ACCESS_TOKEN
 ### Token Validity
 - The access tokens have a validity period of 60 minutes.
 - Once expired, you will need to log in again to obtain a new access token.
+
+# Local Testing with Postman
+To facilitate local testing of the API, a Postman collection has been provided. You can import this collection into your Postman application to test the API endpoints.
+## Importing the Postman Collection
+1. Download the Postman collection from the following link:
+[Download Postman Collection](https://drive.google.com/file/d/1EvcJTG9WVRcNJqMj2_QtBN8-yYZmrozl/view?usp=sharing)
+2. Open Postman on your computer.
+3. In Postman, click on `Import` button.
+4. Choose the downloaded collection file or drag and drop it into the dialog box.
+5. Once imported, you will see the collection on the left-hand side in Postman. From here, you can select an endpoint to test.
